@@ -45,4 +45,4 @@ spec:
             name: maven-settings
           - name: docker-config
             secret:
-              secretName: {{ .Values.app.name }}-registry-creds
+              secretName: janus-demo-video-test-pull-secret
